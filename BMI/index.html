@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BMI</title>
+	<link rel="stylesheet" type="text/css" href="style/bmi.css">
+</head>
+<body>
+	<h1>Obliczanie BMI</h1>
+	<form name="bmi">
+		<label>
+			<input type="text" name="weight" placeholder="Weight (kg)">	
+		</label>
+		<label>
+			<input type="text" name="height" placeholder="Height (cm)">
+		</label>
+		<button type="submit">Calculate BMI</button>
+		<div class="calculation">
+			<div>
+				BMI calcualtion <span class="result"></span>	
+			</div>
+			
+			<div>
+				This means you are: <span class="health"></span>
+			</div>
+		</div>
+
+	</form>
+	<script src="js/bmi.js"></script>
+</body>
+</html>
